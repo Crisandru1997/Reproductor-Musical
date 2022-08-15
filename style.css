@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contenedor-principal{
+  width: 100wh;
+  height: 100vh;
+  background-color: #1a66ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player{
+  border: 1px solid black;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.imagen{
+  width: 200px;
+}
+.canciones{
+  list-style: none;
+}
+
+.conetenedor-progreso{
+  margin: 5px 0;
+  height: .6rem;
+  background-color: #bababa;
+}
+.barra{
+  width: 0;
+  height: 100%;
+  background-color: red;
+}
+
+.canciones a{
+  text-decoration: none;
+}
+.canciones a.active{
+  color: brown;
+  font-weight: bold;
+}
